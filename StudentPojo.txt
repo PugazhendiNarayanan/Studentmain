@@ -1,0 +1,42 @@
+package StudentManagmentSystem;
+//pojo class
+public class Student {
+		private int Id;
+		private String Name;
+		private int age;
+		private int ClassNO;
+		public Student(int Id, String Name , int ClassNO, int age) {
+		    this.Id=Id;
+			this.Name=Name;
+			this.age=age;
+			this.ClassNO=ClassNO; 
+		  }
+		public int getId() {
+		  return Id;
+		  }
+		  public void  setId(int Id) {
+			  this.Id=Id;
+		  }
+	      public String getName() {
+	      return Name;
+	      }
+	      public void  setName(String Name) {
+		  this.Name=Name;
+	      }
+          public int getage() {
+          return age;
+          }
+          public void  setage(int age) {
+	      this.age=age;
+          }
+          public int getClassNo() {
+             return ClassNO;
+          }
+          public void  ClassNo(int ClassNo) {
+    	  this.ClassNO=ClassNo;
+          }
+}
+	    
+	     
+
+
